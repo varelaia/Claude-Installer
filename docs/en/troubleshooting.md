@@ -85,6 +85,23 @@ Claude Code does **not** work with the free Claude.ai plan. You need **Pro, Max,
 Enterprise**, or a **Console** account with API. Within a session, re-authenticate with
 `/login`.
 
+## I installed on a server / over SSH and the browser won't open
+
+On a VPS or SSH session with no GUI, the login can't open a browser. Claude Code shows you a
+**URL and a code**: copy them, open them in the browser on **your local machine**, authorize, and
+come back. If it hangs on *Signing in…*, force the terminal flow:
+
+```bash
+unset DISPLAY && claude
+```
+
+## Network error / "region not supported"
+
+Claude Code isn't available in every country. Check the list of
+[Anthropic-supported countries](https://www.anthropic.com/supported-countries). If your region is
+supported, it's usually a proxy/firewall: try another network or the
+[official install guide](https://code.claude.com/docs/en/troubleshoot-install).
+
 ## The Claude folder grew a lot (hundreds of MB)
 
 The auto-update keeps old versions in `~/.local/share/claude/versions/`. Free them up by
