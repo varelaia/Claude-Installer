@@ -7,17 +7,29 @@ description: Common errors when installing Claude Code and how to resolve them: 
 
 ## `claude: command not found` / `claude not recognized`
 
-The binary was installed but it's not on your `PATH`, or the terminal hasn't reloaded the
-profile yet.
+If the installer said "installation complete", the binary **was installed** — what's failing is
+the `PATH` (your terminal just can't find it yet). **Don't reinstall** — it's a path problem, not
+an install problem.
+
+!!! tip "Where the binary lives (exact — don't guess)"
+    The native installer puts `claude` at **`~/.local/bin/claude`** (a symlink →
+    `~/.local/share/claude/versions/<version>`). It is **NOT** in `~/.claude/bin` or
+    `/usr/local/bin`. `~/.claude/` is *configuration*, not the binary. On Windows:
+    `%USERPROFILE%\.local\bin\claude.exe`.
+
+**Correct diagnosis (in order):**
 
 === "Linux / macOS"
 
     ```bash
-    # 1) Confirm the binary exists:
+    # 1) Does the binary exist? — this is the AUTHORITATIVE check
     ls -l ~/.local/bin/claude
-    # 2) Add to PATH and reload:
-    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc   # or ~/.zshrc
-    source ~/.bashrc                                            # or ~/.zshrc
+    # 2) Does it run via absolute path? If it prints a version → installed, it's just PATH:
+    ~/.local/bin/claude --version
+    # 3) Fix the PATH in the file YOUR shell reads (see the note below) and reload.
+    #    Example for zsh (modern macOS):
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+    source ~/.zshrc
     ```
 
 === "Windows"
@@ -25,14 +37,24 @@ profile yet.
     Open a **new** terminal (the PATH doesn't update in the current session). If it's still not
     recognized, check that `%USERPROFILE%\.local\bin` is on the user PATH.
 
+!!! danger "Don't conclude 'it didn't install' if `which claude` returns nothing"
+    An empty `which claude`, or a `find ~/.claude ...` that finds nothing, does **NOT** mean the
+    install failed — it almost always means you **looked in the wrong place**. The binary is at
+    **`~/.local/bin/claude`**. Always check with `ls -l ~/.local/bin/claude` (or run
+    `~/.local/bin/claude --version`); **never** infer "not installed" from a `which`/`find` in
+    other paths.
+
+!!! warning "The PATH file depends on YOUR shell — not everyone uses `~/.bashrc`"
+    Find your shell with `echo $SHELL` and use the right file:
+
+    - **macOS with zsh** (modern default; prompt ends in `%`) → `~/.zshrc`.
+    - **macOS with bash** (prompt ends in `$`) → **`~/.bash_profile`**. A bash login shell on
+      macOS does **not** read `~/.bashrc` → that's why `source ~/.bashrc` errors or "does nothing".
+    - **Linux** → usually `~/.bashrc`.
+
 !!! info "Why it happens"
     A script cannot change the `PATH` of the terminal that invoked it. You always need a **new
     terminal** or `source` after installing.
-
-!!! warning "macOS: if you use zsh, it goes in `~/.zshrc` (not `~/.bashrc`)"
-    Modern macOS uses **zsh**, which **does not read `~/.bashrc`**. If the installer wrote the
-    PATH to `~/.bashrc`, put it in `~/.zshrc`. And if your prompt ends in `$` (bash, not zsh),
-    use `~/.bash_profile`.
 
 ## `claude --version` prints nothing / stays the same
 
