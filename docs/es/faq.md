@@ -1,6 +1,6 @@
 ---
-title: Preguntas frecuentes — Claude Code
-description: Dudas comunes al instalar y usar Claude Code: Node.js, tamaño, autenticación, plan gratuito, actualizaciones y desinstalación.
+title: "Preguntas frecuentes — Claude Code"
+description: "Dudas comunes al instalar y usar Claude Code: Node.js, tamaño, autenticación, plan gratuito, actualizaciones y desinstalación."
 ---
 
 # Preguntas frecuentes

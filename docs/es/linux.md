@@ -1,6 +1,6 @@
 ---
-title: Instalar Claude Code en Linux
-description: Cómo instalar Claude Code (el CLI de Anthropic) en Linux (Ubuntu, Debian, Alpine), configurar el PATH y verificar la instalación.
+title: "Instalar Claude Code en Linux"
+description: "Cómo instalar Claude Code (el CLI de Anthropic) en Linux (Ubuntu, Debian, Alpine), configurar el PATH y verificar la instalación."
 ---
 
 # Instalar Claude Code en Linux

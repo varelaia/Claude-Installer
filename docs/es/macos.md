@@ -1,6 +1,6 @@
 ---
-title: Instalar Claude Code en macOS
-description: Cómo instalar Claude Code (el CLI de Anthropic) en macOS (Intel y Apple Silicon), requisito macOS 13+, configurar zsh y el PATH.
+title: "Instalar Claude Code en macOS"
+description: "Cómo instalar Claude Code (el CLI de Anthropic) en macOS (Intel y Apple Silicon), requisito macOS 13+, configurar zsh y el PATH."
 ---
 
 # Instalar Claude Code en macOS

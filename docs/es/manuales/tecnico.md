@@ -1,6 +1,6 @@
 ---
-title: Manual técnico — Claude Code
-description: Arquitectura de la instalación de Claude Code: binario nativo, ubicación, PATH, auto-update, canales de versión, autenticación y configuración.
+title: "Manual técnico — Claude Code"
+description: "Arquitectura de la instalación de Claude Code: binario nativo, ubicación, PATH, auto-update, canales de versión, autenticación y configuración."
 ---
 
 # Manual técnico

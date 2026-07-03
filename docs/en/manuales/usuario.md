@@ -1,6 +1,6 @@
 ---
-title: User manual — Claude Code
-description: A simple guide to get started with Claude Code: install, sign in, first steps and basic commands.
+title: "User manual — Claude Code"
+description: "A simple guide to get started with Claude Code: install, sign in, first steps and basic commands."
 ---
 
 # User manual

@@ -1,6 +1,6 @@
 ---
-title: Claude Code troubleshooting
-description: Common errors when installing Claude Code and how to resolve them: command not found, PATH, npm permissions, macOS 13, Windows execution policy, WSL, login.
+title: "Claude Code troubleshooting"
+description: "Common errors when installing Claude Code and how to resolve them: command not found, PATH, npm permissions, macOS 13, Windows execution policy, WSL, login."
 ---
 
 # Troubleshooting

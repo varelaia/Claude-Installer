@@ -1,6 +1,6 @@
 ---
-title: Operations manual — Claude Code
-description: Claude Code operating procedures: install, verify, update, clean up old versions, roll back and uninstall.
+title: "Operations manual — Claude Code"
+description: "Claude Code operating procedures: install, verify, update, clean up old versions, roll back and uninstall."
 ---
 
 # Operations manual

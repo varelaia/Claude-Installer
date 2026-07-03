@@ -1,6 +1,6 @@
 ---
-title: Manual operativo — Claude Code
-description: Procedimientos de operación de Claude Code: instalar, verificar, actualizar, limpiar versiones viejas, revertir y desinstalar.
+title: "Manual operativo — Claude Code"
+description: "Procedimientos de operación de Claude Code: instalar, verificar, actualizar, limpiar versiones viejas, revertir y desinstalar."
 ---
 
 # Manual operativo

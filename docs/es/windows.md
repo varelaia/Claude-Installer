@@ -1,6 +1,6 @@
 ---
-title: Instalar Claude Code en Windows
-description: Cómo instalar Claude Code (el CLI de Anthropic) en Windows nativo (PowerShell/CMD) o WSL, configurar el PATH y verificar.
+title: "Instalar Claude Code en Windows"
+description: "Cómo instalar Claude Code (el CLI de Anthropic) en Windows nativo (PowerShell/CMD) o WSL, configurar el PATH y verificar."
 ---
 
 # Instalar Claude Code en Windows

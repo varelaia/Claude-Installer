@@ -1,6 +1,6 @@
 ---
-title: Instalar Claude Code — guía paso a paso (Linux, macOS, Windows)
-description: Cómo instalar Claude Code (el CLI de Anthropic) en Linux, macOS y Windows con el instalador nativo. Requisitos, PATH, autenticación y solución de problemas.
+title: "Instalar Claude Code — guía paso a paso (Linux, macOS, Windows)"
+description: "Cómo instalar Claude Code (el CLI de Anthropic) en Linux, macOS y Windows con el instalador nativo. Requisitos, PATH, autenticación y solución de problemas."
 ---
 
 # Cómo instalar Claude Code
