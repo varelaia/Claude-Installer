@@ -10,6 +10,10 @@ El instalador nativo baja **un binario autocontenido** (varios cientos de MB) a 
 **no usa Node.js** y se auto-actualiza. Instalación **mínima por diseño**: solo el binario
 `claude`, sin suites de herramientas ni dependencias arrastradas.
 
+## TL;DR (English)
+
+**Claude-Installer** is a step-by-step guide plus scripts to install **Claude Code** — Anthropic's CLI for coding with Claude in your terminal — on **Linux, macOS and Windows without administrator/sudo rights**. The native installer downloads a single self-contained binary to `~/.local/bin` (no Node.js required) and self-updates. Full docs: https://varelaia.github.io/Claude-Installer/ · MIT license, maintained by [Varela Insights](https://www.varelainsights.com/) (Monterrey, Mexico).
+
 ---
 
 ## ⚡ Instalación rápida (instalador nativo — recomendado)
