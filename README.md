@@ -1,3 +1,6 @@
+<p align="center"><img src="assets/banner.svg" alt="Claude-Installer — Varela Insights" width="100%"></p>
+<p align="center">[![Docs](https://img.shields.io/badge/docs-ES%20%2F%20EN-22c55e?style=flat-square)](https://varelaia.github.io/Claude-Installer/) ![Plataformas](https://img.shields.io/badge/plataformas-Linux%20%C2%B7%20macOS%20%C2%B7%20Windows-0a0e1a?style=flat-square) ![MIT](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square) [![Varela Insights](https://img.shields.io/badge/by-Varela%20Insights-6aa0ff?style=flat-square)](https://www.varelainsights.com/)</p>
+
 # Claude Code — Instalador y Guía Completa
 
 > **📖 Documentación completa (sitio): https://varelaia.github.io/Claude-Installer/**
