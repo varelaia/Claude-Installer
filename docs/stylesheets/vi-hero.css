@@ -1,0 +1,14 @@
+/* vi-hero — portada Varela Insights (estático, sin JS, dark/light safe) */
+.vi-hero{background:linear-gradient(135deg,#0a0e1a 0%,#101a30 100%);border-radius:14px;
+  padding:2.2rem 2rem;margin:0 0 1.6rem 0;color:#eef3f7;position:relative;overflow:hidden}
+.vi-hero::after{content:"";position:absolute;right:-70px;top:-70px;width:230px;height:230px;
+  border-radius:50%;background:#22c55e;opacity:.09;pointer-events:none}
+.vi-hero .vi-kicker{font-size:.72rem;letter-spacing:.18em;font-weight:700;color:#33d98a;
+  text-transform:uppercase;margin:0 0 .5rem 0}
+.vi-hero h2{color:#fff;font-size:1.75rem;font-weight:800;line-height:1.2;margin:0 0 .55rem 0}
+.vi-hero h2 strong{color:#33d98a}
+.vi-hero .vi-sub{color:#c3ccdd;font-size:1rem;margin:0 0 1.15rem 0}
+.vi-btn{display:inline-block;background:linear-gradient(90deg,#22c55e,#33d98a);color:#06240f !important;
+  font-weight:700;padding:.55rem 1.15rem;border-radius:8px;margin-right:.55rem;text-decoration:none}
+.vi-btn--ghost{background:transparent;color:#eef3f7 !important;border:1.5px solid #33d98a}
+.vi-btn:hover{opacity:.9}

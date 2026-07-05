@@ -101,3 +101,6 @@ nav:
       - Manual técnico: es/manuales/tecnico.md
       - Manual operativo: es/manuales/operativo.md
       - Manual de usuario: es/manuales/usuario.md
+
+extra_css:
+  - stylesheets/vi-hero.css

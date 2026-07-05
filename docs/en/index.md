@@ -3,6 +3,14 @@ title: "Install Claude Code — step-by-step guide (Linux, macOS, Windows)"
 description: "How to install Claude Code (Anthropic's CLI) on Linux, macOS and Windows with the native installer. Requirements, PATH, authentication and troubleshooting."
 ---
 
+<div class="vi-hero">
+  <p class="vi-kicker">Varela Insights</p>
+  <h2>Install <strong>Claude Code</strong> without sudo</h2>
+  <p class="vi-sub">Anthropic's CLI on Linux, macOS and Windows — self-contained binary, no Node.js</p>
+  <p><a class="vi-btn" href="#quick-install-native-installer-recommended">Install now</a><a class="vi-btn vi-btn--ghost" href="https://github.com/varelaia/Claude-Installer">GitHub</a></p>
+</div>
+
+
 # How to install Claude Code
 
 **Claude Code** is **Anthropic's** command-line tool (CLI) for coding with Claude directly in
