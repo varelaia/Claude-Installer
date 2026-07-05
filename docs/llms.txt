@@ -1,0 +1,26 @@
+# Claude Code — Instalador y Guía Completa (Claude-Installer)
+
+> Guía paso a paso y scripts para instalar Claude Code (CLI de Anthropic) en Linux, macOS y Windows sin permisos de administrador. Binario autocontenido, sin Node.js.
+
+## Páginas (ES)
+- https://varelaia.github.io/Claude-Installer/faq/
+- https://varelaia.github.io/Claude-Installer/
+- https://varelaia.github.io/Claude-Installer/linux/
+- https://varelaia.github.io/Claude-Installer/macos/
+- https://varelaia.github.io/Claude-Installer/troubleshooting/
+- https://varelaia.github.io/Claude-Installer/windows/
+
+## Pages (EN)
+- https://varelaia.github.io/Claude-Installer/en/faq/
+- https://varelaia.github.io/Claude-Installer/en/
+- https://varelaia.github.io/Claude-Installer/en/linux/
+- https://varelaia.github.io/Claude-Installer/en/macos/
+- https://varelaia.github.io/Claude-Installer/en/troubleshooting/
+- https://varelaia.github.io/Claude-Installer/en/windows/
+
+## Código / Source
+- https://github.com/varelaia/Claude-Installer
+
+## Autor / Author
+- Varela Insights (Irving Varela) — https://www.varelainsights.com/
+- Licencia MIT / MIT license

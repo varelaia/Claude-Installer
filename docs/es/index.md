@@ -91,3 +91,33 @@ PATH y verifican el resultado — ver el [README](https://github.com/varelaia/Cl
 La instalación es **mínima por diseño**: solo el binario `claude`, sin suites de herramientas.
 
 ¿Algo falla? Revisa la [Solución de problemas](troubleshooting.md).
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Claude-Installer",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Linux, macOS, Windows",
+  "description": "Guía paso a paso y scripts para instalar Claude Code (CLI de Anthropic) en Linux, macOS y Windows sin permisos de administrador. Binario autocontenido, sin Node.js.",
+  "inLanguage": "es",
+  "url": "https://varelaia.github.io/Claude-Installer/",
+  "sameAs": "https://github.com/varelaia/Claude-Installer",
+  "license": "https://opensource.org/licenses/MIT",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Varela Insights",
+    "url": "https://www.varelainsights.com/",
+    "founder": {
+      "@type": "Person",
+      "name": "Irving Varela"
+    }
+  }
+}
+</script>
