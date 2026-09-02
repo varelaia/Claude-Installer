@@ -8,7 +8,7 @@ description: "Dudas comunes al instalar y usar Claude Code: Node.js, tamaño, au
 ## ¿Necesito Node.js?
 
 **No**, si usas el **instalador nativo** (recomendado) o Homebrew/WinGet: bajan un binario
-autocontenido. **Sí**, solo si instalas por `npm` (Node 18+).
+autocontenido. **Sí**, solo si instalas por `npm` (Node 22+).
 
 ## ¿Cuánto pesa la instalación?
 

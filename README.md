@@ -74,7 +74,7 @@ iniciar sesión).
 | **Linux** (incluido **WSL 2**) | Ubuntu 20.04+/Debian 10+, 4 GB RAM, x64 o ARM64 |
 | **macOS** | **macOS 13.0 (Ventura)+**, 4 GB RAM |
 | **Windows nativo** | Windows 10 1809+ |
-| **Node.js** | **Solo** para el método `npm` (Node 18+). El instalador nativo no lo necesita. |
+| **Node.js** | **Solo** para el método `npm` (Node 22+). El instalador nativo no lo necesita. |
 
 ---
 
@@ -83,7 +83,7 @@ iniciar sesión).
 | Método | Cuándo elegirlo |
 |---|---|
 | **Instalador nativo** *(recomendado)* | Por defecto — un binario, sin dependencias, auto-update. |
-| `npm install -g @anthropic-ai/claude-code` | Si ya vives en el ecosistema Node (requiere Node 18+). |
+| `npm install -g @anthropic-ai/claude-code` | Si ya vives en el ecosistema Node (requiere Node 22+). |
 | `brew install --cask claude-code` | Si gestionas todo con Homebrew (macOS/Linux). Update manual. |
 | `winget install Anthropic.ClaudeCode` | Windows corporativo con winget. |
 

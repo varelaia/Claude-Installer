@@ -46,7 +46,7 @@ O directo, sin clonar:
 npm install -g @anthropic-ai/claude-code
 ```
 
-Requiere **Node.js 18+**. Instala el mismo binario nativo. **No uses `sudo npm install -g`**
+Requiere **Node.js 22+**. Instala el mismo binario nativo. **No uses `sudo npm install -g`**
 (causa problemas de permisos); si `npm` global no es escribible, configura un prefijo de
 usuario: `mkdir ~/.npm-global && npm config set prefix ~/.npm-global`.
 

@@ -60,13 +60,13 @@ el navegador para **iniciar sesión** (ver [Autenticación](#autenticacion)).
 | **Linux** | Ubuntu 20.04+/Debian 10+ (o equivalente), 4 GB RAM, x64 o ARM64 |
 | **macOS** | **macOS 13.0 (Ventura) o superior**, 4 GB RAM |
 | **Windows** | Windows 10 1809+ (nativo) o **WSL 2** para toolchains Linux |
-| **Node.js** | **Solo** si instalas por `npm` (Node 18+). El instalador nativo **no** lo necesita. |
+| **Node.js** | **Solo** si instalas por `npm` (Node 22+). El instalador nativo **no** lo necesita. |
 
 ## Otras formas de instalar
 
 | Método | Comando | Nota |
 |---|---|---|
-| **npm** | `npm install -g @anthropic-ai/claude-code` | requiere Node 18+; instala el mismo binario |
+| **npm** | `npm install -g @anthropic-ai/claude-code` | requiere Node 22+; instala el mismo binario |
 | **Homebrew** | `brew install --cask claude-code` | macOS/Linux; update manual (`brew upgrade`) |
 | **WinGet** | `winget install Anthropic.ClaudeCode` | Windows |
 

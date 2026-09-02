@@ -8,7 +8,7 @@ description: "Common questions when installing and using Claude Code: Node.js, s
 ## Do I need Node.js?
 
 **No**, if you use the **native installer** (recommended) or Homebrew/WinGet: they download a
-self-contained binary. **Yes**, only if you install via `npm` (Node 18+).
+self-contained binary. **Yes**, only if you install via `npm` (Node 22+).
 
 ## How big is the installation?
 
