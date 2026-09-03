@@ -16,7 +16,7 @@ Node.js** en tiempo de ejecución.
 | Método | Qué baja | Node requerido |
 |---|---|---|
 | Instalador nativo (`install.sh`/`.ps1`/`.cmd`) | binario nativo | no |
-| npm (`@anthropic-ai/claude-code`) | el **mismo** binario nativo vía dependencias opcionales por plataforma (`…-darwin-arm64`, `…-linux-x64`, …) | sí, 18+ (solo para instalar) |
+| npm (`@anthropic-ai/claude-code`) | el **mismo** binario nativo vía dependencias opcionales por plataforma (`…-darwin-arm64`, `…-linux-x64`, …) | sí, 22+ (solo para instalar) |
 | Homebrew cask (`claude-code`) | binario ya compilado (cask, no formula) | no |
 | WinGet (`Anthropic.ClaudeCode`) | binario nativo | no |
 
@@ -54,7 +54,8 @@ Diagnóstico: `claude doctor`.
 ## Requisitos mínimos
 
 macOS 13.0+ · Ubuntu 20.04+/Debian 10+ · Alpine 3.19+ (con `libgcc libstdc++` + ripgrep) ·
-Windows 10 1809+ (o WSL) · 4 GB RAM · x64 o ARM64.
+Windows 10 1809+ nativo (WSL2 recomendado para sandboxing; WSL1 funciona sin él) ·
+4 GB RAM · x64 o ARM64.
 
 ## Referencias
 

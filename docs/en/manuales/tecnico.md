@@ -16,7 +16,7 @@ not invoke Node.js** at runtime.
 | Method | What it downloads | Node required |
 |---|---|---|
 | Native installer (`install.sh`/`.ps1`/`.cmd`) | native binary | no |
-| npm (`@anthropic-ai/claude-code`) | the **same** native binary via platform-specific optional dependencies (`…-darwin-arm64`, `…-linux-x64`, …) | yes, 18+ (only to install) |
+| npm (`@anthropic-ai/claude-code`) | the **same** native binary via platform-specific optional dependencies (`…-darwin-arm64`, `…-linux-x64`, …) | yes, 22+ (only to install) |
 | Homebrew cask (`claude-code`) | pre-compiled binary (cask, not formula) | no |
 | WinGet (`Anthropic.ClaudeCode`) | native binary | no |
 
@@ -54,7 +54,8 @@ Diagnostics: `claude doctor`.
 ## Minimum requirements
 
 macOS 13.0+ · Ubuntu 20.04+/Debian 10+ · Alpine 3.19+ (with `libgcc libstdc++` + ripgrep) ·
-Windows 10 1809+ (or WSL) · 4 GB RAM · x64 or ARM64.
+Windows 10 1809+ native (WSL2 recommended for sandboxing; WSL1 works without it) ·
+4 GB RAM · x64 or ARM64.
 
 ## References
 
